@@ -1,0 +1,99 @@
+(footprint "Dailywell_SPST_5.08mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b98b957d-7b40-4322-af2c-a7b6640dbd46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dailywell_SPST_5.08mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a62e954a-ce81-45ce-ae81-1fd117b16dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3d960da-74f7-4b97-a408-17707adb04a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fd698c4-5ea5-4b6c-b7e8-3cdbcbc35f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.54 -4.065)
+		(end 2.54 4.065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "811776ba-ff84-4f8c-aec4-1b7bcceb9bfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91e9970b-5b93-43f8-ae82-a5cfcfe76c90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -2.54 90)
+		(size 0.9 2)
+		(drill oval 0.65 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "4f587853-a8d8-43db-8184-96384ead58cc")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 2.54 90)
+		(size 0.9 2)
+		(drill oval 0.65 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "cfe06801-7c4d-4a8f-87f5-1dfe03da3875")
+	)
+	(embedded_fonts no)
+)
